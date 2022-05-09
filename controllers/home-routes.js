@@ -25,19 +25,14 @@ router.get("/", (req, res) => {
   })
 
     // Serialize data so the template can read it
-    .then((dbPostData) => {
-      const projects = projectData.map((project) =>
-        project.get({ plain: true })
-      );
-
-      // Pass serialized data and session flag into template
-      res.render("homepage", {
-        projects,
-        logged_in: req.session.logged_in,
-      });
+    .then(dbPostData => {
+      const posts = dbPostData.map(post => post.get({ plain: true }));
+      res.render('homepage', {
+          posts,
+          loggedIn: req.session.loggedIn
+        });
     })
-
-    .catch((err) => {
+    .catch(err => {
       console.log(err);
       res.status(500).json(err);
     });
