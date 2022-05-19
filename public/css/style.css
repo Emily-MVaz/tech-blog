@@ -111,7 +111,6 @@ header {
   padding: 0 1%;
 }
 
-
 .btn-no-style {
   background: none;
   border: none;
@@ -148,7 +147,6 @@ header {
 .comment {
   padding: 1%;
   margin-bottom: 1%;
-  
 }
 
 .comment:nth-child(odd) {

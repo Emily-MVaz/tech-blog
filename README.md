@@ -8,7 +8,7 @@ Tech Mark is a CMS-style blog site similar to a Wordpress site, where developers
 
 - [Installation](#installation)
 - [Objectives](#objectives)
-- [Screenshot](#screenshot)
+- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [Questions](#questions)
 - [License](#license)
@@ -19,6 +19,7 @@ Tech Mark is a CMS-style blog site similar to a Wordpress site, where developers
 3. Cd into new directory and into Develop folder
 4. Download Inquirer package by entering npm i
 5. npm run start
+
 ## Objectives
 
 ```md
@@ -56,7 +57,17 @@ THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 ```
-## Screenshot
+## Screenshots
+
+<p align="center">
+    <img src="./images/techmark-01.png"/>
+    <img src="./images/techmark-02.png"/>
+    <img src="./images/techmark-03.png"/>
+    <img src="./images/techmark-04.png"/>
+    <img src="./images/techmark-05.png"/>
+    <!-- <img src="./assets/resources2.png" alt="screenshot of app"/> -->
+</p>
+
 ## Contributing
 
 
